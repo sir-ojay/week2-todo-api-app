@@ -7,6 +7,9 @@ import Login from "./components/auth/Login";
 import Register from "./components/auth/Register";
 import Reset from "./components/auth/Reset";
 
+// Todos import
+import Todos from "./components/todos page/Todos";
+
 const App = () => {
   return (
     <div>
