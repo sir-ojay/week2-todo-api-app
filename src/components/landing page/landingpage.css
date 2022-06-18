@@ -1,0 +1,278 @@
+/* STYLES FOR SECTION - "SATISFYING OVER 1B" -STARTS-  */
+section.so1b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin: 24px auto;
+}
+
+div.so1b-topcontainer {
+    padding: 10px 115px;
+    /* word-wrap: break-word; */
+}
+
+h3.so1b-branch {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: rgba(160, 143, 143, 0.877);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+
+}
+
+h1.so1b-headline {
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+}
+
+span.so1b-subheadline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    margin: 34px 10px;
+}
+
+.so1b-bottomcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    padding: 10px 0px;
+}
+
+div.so1b-BCcontainer {
+    position: relative;
+    display: inline;
+    justify-content: space-around;
+    align-content: space-around;
+    box-sizing: border-box;
+    height: minheight(100px, auto);
+    width: 40pc;
+    border-radius: 20px;
+    box-shadow: 0px 4px 0px 2px rgb(104, 104, 104);
+    border: 1px solid gray;
+    padding: 40px 20px;
+}
+
+.so1b-user {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+
+h2.username {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+span.userjob {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+@media (min-width:1070px) and (max-width: 1120px) {
+    div.so1b-BCcontainer {
+        width: 30pc;
+    }
+}
+
+@media (min-width: 945px) and (max-width: 1069px) {
+    div.so1b-BCcontainer {
+        width: 28pc;
+    }
+
+    div.so1b-topcontainer {
+        padding: 10px 95px;
+    }
+}
+
+@media (min-width: 667px) and (max-width: 845px) {
+    section.so1b {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        margin: 24px auto;
+    }
+
+    div.so1b-topcontainer {
+        padding: 10px 15px;
+    }
+
+    h3.so1b-branch {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        color: rgba(160, 143, 143, 0.877);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 10px;
+
+    }
+
+    h1.so1b-headline {
+        display: flex;
+        justify-content: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 21px;
+    }
+
+    span.so1b-subheadline {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        margin: 14px 0px;
+    }
+
+    .so1b-bottomcontainer {
+        display: inline-flex;
+        align-items: center;
+        padding: 10px 10px;
+    }
+
+    div.so1b-BCcontainer {
+        position: relative;
+        display: inline;
+        justify-content: space-between;
+        align-content: space-between;
+        box-sizing: border-box;
+        width: 20pc;
+        padding: 20px 20px;
+    }
+
+    .so1b-user {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: relative;
+    }
+
+    h2.username {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 6px;
+        font-size: 20x;
+    }
+
+    span.userjob {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 22px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+    }
+
+    div.so1b-text p.text {
+        display: inline;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 666px) {
+    section.so1b {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        margin: 24px auto;
+    }
+
+    div.so1b-topcontainer {
+        padding: 10px 15px;
+    }
+
+    h3.so1b-branch {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        color: rgba(160, 143, 143, 0.877);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 10px;
+
+    }
+
+    h1.so1b-headline {
+        display: flex;
+        justify-content: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 21px;
+    }
+
+    span.so1b-subheadline {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        margin: 14px 0px;
+    }
+
+    .so1b-bottomcontainer {
+        display: inline-flex;
+        align-items: center;
+        padding: 10px 10px;
+    }
+
+    div.so1b-BCcontainer {
+        position: relative;
+        display: inline;
+        justify-content: space-between;
+        align-content: space-between;
+        box-sizing: border-box;
+        width: 20pc;
+        padding: 20px 20px;
+    }
+
+    .so1b-user {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: relative;
+    }
+
+    h2.username {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 6px;
+        font-size: 20x;
+    }
+
+    span.userjob {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 22px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+    }
+
+    div.so1b-text p.text {
+        display: inline;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 19px;
+    }
+
+}
+
+/* STYLES FOR SECTION - "SATISFYING OVER 1B"  -ENDS- */
