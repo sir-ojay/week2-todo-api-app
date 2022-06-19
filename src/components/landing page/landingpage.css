@@ -1,3 +1,4 @@
+/* fevil was here */
 /* STYLES FOR SECTION - "SATISFYING OVER 1B" -STARTS-  */
 section.so1b {
     display: flex;
@@ -9,7 +10,6 @@ section.so1b {
 
 div.so1b-topcontainer {
     padding: 10px 115px;
-    /* word-wrap: break-word; */
 }
 
 h3.so1b-branch {
@@ -62,26 +62,50 @@ div.so1b-BCcontainer {
 }
 
 .so1b-user {
+    position: relative;
     display: inline-flex;
     flex-direction: column;
-    justify-content: flex-start;
-    position: relative;
+}
+
+.so1b-user i {
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid gray;
+    color: gray;
+    margin-top: 10px;
 }
 
 h2.username {
-    display: flex;
+    padding-left: 35px;
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 6px;
 }
 
 span.userjob {
-    display: block;
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 22px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
+    margin-left: 35px;
+}
+
+.so1b-stars {
+    margin: 20px 0px;
+}
+
+.so1b-stars i {
+    margin: 3px;
+    color: rgb(44, 44, 66);
 }
 
 @media (min-width:1070px) and (max-width: 1120px) {
@@ -243,15 +267,19 @@ span.userjob {
         padding: 20px 20px;
     }
 
+    div.so1b-BCcontainer.javascript {
+        display: none;
+    }
+
     .so1b-user {
-        display: inline-flex;
+        display: flex;
         flex-direction: column;
         justify-content: flex-start;
         position: relative;
     }
 
     h2.username {
-        display: flex;
+        display: inline-block;
         flex-direction: column;
         justify-content: center;
         margin-bottom: 6px;
@@ -259,7 +287,7 @@ span.userjob {
     }
 
     span.userjob {
-        display: block;
+        display: inline;
         flex-direction: column;
         justify-content: center;
         margin-bottom: 22px;
