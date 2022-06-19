@@ -44,7 +44,7 @@ const LandingPage = () => {
             </div>
           </div>
 
-          <div className="so1b-BCcontainer">
+          <div className="so1b-BCcontainer javascript">
             <div className="so1b-user">
               <i className="fas fa-user"></i>
               <h2 className="username">Courty Henry</h2>
