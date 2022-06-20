@@ -229,8 +229,8 @@ span.userjob {
         display: flex;
         justify-content: center;
         color: rgba(160, 143, 143, 0.877);
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
 
     }
 
@@ -238,7 +238,7 @@ span.userjob {
         display: flex;
         justify-content: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 21px;
+        font-size: 18px;
     }
 
     span.so1b-subheadline {
