@@ -2,8 +2,10 @@ import React from 'react'
 
 const TodoList = () => {
   return (
-    <div>TodoList</div>
-  )
-}
+    <div className="todolist">
+      Lits side
+    </div>
+  );
+};
 
-export default TodoList
+export default TodoList;
