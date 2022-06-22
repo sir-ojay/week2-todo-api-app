@@ -1,0 +1,78 @@
+/* fevil was here */
+.todos {
+    margin: 40px 20px;
+}
+
+h1.schedule-day,
+span.schedule-date {
+    margin-left: 40px;
+}
+
+span.schedule-date {
+    color: rgb(64, 64, 224);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.todos-displaycontainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.todos-middle {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.todos-reminder {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: rgba(12, 12, 179, 0.945);
+    border-radius: 20px;
+    height: 50px;
+    width: 400px;
+    padding: 20px;
+}
+
+.tr-time {
+    text-decoration: none;
+}
+
+.tr-upcoming-reminders {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgba(12, 12, 179, 0.945);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-radius: 20px;
+    height: 120px;
+    width: 300px;
+    padding: 10px;
+}
+
+h4.todos-title {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+
+    h1.schedule-day,
+    span.schedule-date {
+        margin-left: 10px;
+    }
+
+    .todos-reminder {
+        width: 300px;
+    }
+
+    h4.todos-title {
+        margin-bottom: 6px;
+    }
+}

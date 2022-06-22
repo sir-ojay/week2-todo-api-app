@@ -9,6 +9,8 @@ import Reset from "./components/auth/Reset";
 
 // Todos import
 import Todos from "./components/todos page/Todos";
+import TodoList from "./components/todos page/TodoList";
+import TodoForm from "./components/todos page/TodoForm";
 
 const App = () => {
   return (
@@ -20,10 +22,15 @@ const App = () => {
           <Route path="register" element={<Register />} />
           <Route path="reset" element={<Reset />} />
         </Route>
-        <Route path="todos" element={<Todos />} />
+        <Route path="todos" element={<Todos />} >
+          <Route path="/todoform" element={<TodoForm />} />
+          <Route path="/todolist" element={<TodoList />} />
+        </Route>
       </Routes>
     </div>
   );
 };
 
 export default App;
+
+// fevil was here
