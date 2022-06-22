@@ -22,10 +22,10 @@ const App = () => {
           <Route path="register" element={<Register />} />
           <Route path="reset" element={<Reset />} />
         </Route>
-        <Route path="todos" element={<Todos />} >
-          <Route path="/todoform" element={<TodoForm />} />
-          <Route path="/todolist" element={<TodoList />} />
-        </Route>
+        <Route path="todos" element={<Todos />} />
+        <Route path="/todoform" element={<TodoForm />} />
+        <Route path="/todolist" element={<TodoList />} />
+
       </Routes>
     </div>
   );
