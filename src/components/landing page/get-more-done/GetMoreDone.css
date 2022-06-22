@@ -1,0 +1,183 @@
+.getMoreDone {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 7.5rem 6rem;
+  color: rgba(69, 90, 100, 1);
+}
+
+.getMoreDone-section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.getMoreDone-section-label {
+  font-size: 1.1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.getMoreDone-section-header {
+  font-size: 2.2rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  line-height: 3rem;
+  color: rgba(0, 0, 0, 1);
+}
+
+.getMoreDone-section-text {
+  font-size: 1.1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-top: 1rem;
+  line-height: 1.8rem;
+}
+
+.addTask-left,
+.mentalClarity-right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.addTask-right img,
+.mentalClarity-left img {
+  width: 30rem;
+}
+
+.whyWeAreTheBest {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.whyWeAreTheBest .getMoreDone-section {
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.whyWeAreTheBest .getMoreDone-section-text {
+  width: 52ch;
+  text-align: center;
+}
+
+.getMoreDone-cardsSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.getMoreDone-card {
+  min-width: 300px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-family: "Montserrat", sans-serif;
+  padding: 2rem;
+  color: rgba(97, 97, 97, 1);
+  text-align: center;
+}
+
+.getMoreDone-card-icon {
+  width: 3.75rem;
+  height: 3.75rem;
+  background: rgba(227, 236, 240, 1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.75rem;
+  color: rgba(11, 90, 121, 1);
+}
+
+.getMoreDone-card-header {
+  font-size: 1.375rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+  text-transform: capitalize;
+}
+
+.getMoreDone-card-text {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+@media (min-width:600px) and (max-width: 730px) {
+
+  .addTask-right img,
+  .mentalClarity-left img {
+    width: 20rem;
+  }
+
+  .todotask-img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .todolaptop-img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (max-width:599px) {
+  .getMoreDone {
+    padding: 50px 50px;
+  }
+
+  .getMoreDone-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .getMoreDone-section-header {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6rem;
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .getMoreDone-section-text {
+    font-size: 0.7rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-top: 1rem;
+    line-height: 1rem;
+    padding: 0 20px;
+  }
+
+  .addTask-right img,
+  .mentalClarity-left img {
+    width: 15rem;
+  }
+
+  .getMoreDone-card-header {
+    font-size: 0.9rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    text-transform: capitalize;
+  }
+
+  .getMoreDone-card-text {
+    font-size: 0.9rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    line-height: 1rem;
+    font-weight: 400;
+  }
+}
