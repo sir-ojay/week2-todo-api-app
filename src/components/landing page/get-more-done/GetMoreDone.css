@@ -45,7 +45,7 @@
 
 .addTask-right img,
 .mentalClarity-left img {
-  width: 45rem;
+  width: 30rem;
 }
 
 .whyWeAreTheBest {
@@ -111,4 +111,73 @@
   text-align: center;
   line-height: 1.5rem;
   font-weight: 400;
+}
+
+@media (min-width:600px) and (max-width: 730px) {
+
+  .addTask-right img,
+  .mentalClarity-left img {
+    width: 20rem;
+  }
+
+  .todotask-img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .todolaptop-img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (max-width:599px) {
+  .getMoreDone {
+    padding: 50px 50px;
+  }
+
+  .getMoreDone-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .getMoreDone-section-header {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6rem;
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .getMoreDone-section-text {
+    font-size: 0.7rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-top: 1rem;
+    line-height: 1rem;
+    padding: 0 20px;
+  }
+
+  .addTask-right img,
+  .mentalClarity-left img {
+    width: 15rem;
+  }
+
+  .getMoreDone-card-header {
+    font-size: 0.9rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    text-transform: capitalize;
+  }
+
+  .getMoreDone-card-text {
+    font-size: 0.9rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    line-height: 1rem;
+    font-weight: 400;
+  }
 }

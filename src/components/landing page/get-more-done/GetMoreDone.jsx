@@ -27,12 +27,12 @@ const GetMoreDone = () => {
           </div>
         </div>
         <div className="addTask-right">
-          <img src={todo} alt="task" />
+          <img className="todotask-img" src={todo} alt="task" />
         </div>
       </div>
       <div className="getMoreDone-section mentalClarity">
         <div className="mentalClarity-left">
-          <img src={laptopGuy} alt="guy with a laptop" />
+          <img className="todolaptop-img" src={laptopGuy} alt="guy with a laptop" />
         </div>
         <div className="mentalClarity-right">
           <div className="getMoreDone-section-label">Get More Done</div>
@@ -50,8 +50,7 @@ const GetMoreDone = () => {
           <div className="getMoreDone-section-label">Get More Done</div>
           <div className="getMoreDone-section-header">Why we are the best</div>
           <div className="getMoreDone-section-text">
-            Your to-do lists are automatically sorted into Today, Upcoming and
-            custom Filter views to help you focus on achieving your goals
+            Your to-do lists are automatically sorted into Today, Upcoming and custom Filter views to help you focus on achieving your goals
           </div>
         </div>
       </div>
