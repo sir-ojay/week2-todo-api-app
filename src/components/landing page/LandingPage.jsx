@@ -7,7 +7,7 @@ import "./landingpage.css";
 const LandingPage = () => {
   return (
     <div className="landingpage">
-    NavbarComponent />
+    <NavbarComponent />
       {/* The first section in the landingpage  */}
       {/* SECTION - "SET A GOAL" starts */}
       <section className="sag">
