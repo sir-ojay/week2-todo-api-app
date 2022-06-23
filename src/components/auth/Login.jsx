@@ -6,7 +6,7 @@ import LoginContainer from "./styles/loginStyles";
 import AuthImage from './addons/AuthImage';
 
 const Login = () => {
-  const [data, setData] = useState({})
+  // const [data, setData] = useState({})
 
 
   const handleChange = (e) => {
