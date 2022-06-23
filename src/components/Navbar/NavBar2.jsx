@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../images/logo.svg";
+import styled from "styled-components";
 
-const NavbarComponent = () => {
+const NavBar = () => {
   return (
-    <div className="header">
-      <div className="menu-bar">
-        <nav className="navbar navbar-expand-lg navbar-light">
+    <NavStyles>
+
+        <nav>
           <Link to={"/"}>
             <img src={Logo} alt="todo-app" />
           </Link>
@@ -40,9 +41,17 @@ const NavbarComponent = () => {
             </div>
           </div>
         </nav>
-      </div>
-    </div>
+
+    </NavStyles>
   );
 };
 
-export default NavbarComponent;
+const NavStyles = styled.div`
+   display: grid;
+   grid-template-column: 1fr 2fr 1fr ;
+
+`;
+  
+
+
+export default NavBar;
