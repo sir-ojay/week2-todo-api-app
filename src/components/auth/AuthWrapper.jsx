@@ -1,6 +1,6 @@
 import React from "react";
 import AuthContainer from "./styles/authstyles";
-import { Outlet, NavLink, useLocation } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 
 export const AuthWrapper = () => {
   const location = useLocation();
