@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "../Navbar/Navbar.jsx
+import NavbarComponent from "../Navbar/Navbar.jsx
 import GetMoreDone from "./get-more-done/GetMoreDone";
 import laptopGuy from "../../images/guy-with-laptop.svg";
 import "./landingpage.css";
@@ -7,7 +7,7 @@ import "./landingpage.css";
 const LandingPage = () => {
   return (
     <div className="landingpage">
-    <Navbar />
+    NavbarComponent />
       {/* The first section in the landingpage  */}
       {/* SECTION - "SET A GOAL" starts */}
       <section className="sag">
