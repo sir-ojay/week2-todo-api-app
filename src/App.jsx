@@ -14,7 +14,7 @@ import TodoForm from "./components/todos page/TodoForm";
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="auth" element={<AuthWrapper />}>

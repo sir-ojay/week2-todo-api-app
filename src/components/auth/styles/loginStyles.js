@@ -8,8 +8,7 @@ const LoginContainer = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #bbe3f39b;
-    padding: 15%;
+    padding: 10% 15%;
 
     div.input {
       margin: 10px 0;
@@ -76,7 +75,7 @@ const LoginContainer = styled.div`
     .main {
       display: flex;
       flex-direction: column;
-      /* padding: 30%; */
+      padding: 10% 15%;
 
       div.input {
         margin: 10px 0;
@@ -102,6 +101,7 @@ const LoginContainer = styled.div`
         display: flex;
         margin: 10px 0 20px;
         justify-content: space-between;
+        font-size: 0.7em;
 
         .remember {
           input {
@@ -118,12 +118,31 @@ const LoginContainer = styled.div`
             }
           }
 
-          label {
-            margin-left: 10px;
-            position: relative;
+          @media screen and (max-width: 400px) {
+            display: flex;
+            flex-direction: column-reverse;
+
+            label {
+              margin-left: 0;
+            }
           }
         }
       }
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .main {
+      display: flex;
+      flex-direction: column;
+      padding: 8%;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .main {
+      display: flex;
+      flex-direction: column;
+      padding: 5%;
     }
   }
 `;

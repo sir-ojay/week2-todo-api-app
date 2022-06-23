@@ -25,6 +25,7 @@ const Login = () => {
             name="email"
             id="email"
             placeholder="Your Email"
+            onChange={handleChange}
           />
         </div>
 

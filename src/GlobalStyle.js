@@ -41,6 +41,16 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
+    width: 100%;
+
+    .App{
+      display: flex;
+      justify-content:center;
+    }
+    
+    @media screen and (max-width: 800px) {
+      overflow: hidden auto;
+    }
   }
 `;
 
