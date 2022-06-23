@@ -1,8 +1,8 @@
-import React from 'react'
+import ResetContainer from "./styles/resetStyles"
 
 const Reset = () => {
   return (
-    <div>Reset</div>
+    <ResetContainer>Reset</ResetContainer>
   )
 }
 

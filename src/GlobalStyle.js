@@ -14,8 +14,14 @@ const GlobalStyle = createGlobalStyle`
   --btn-color-1: rgba(34, 255, 0, 0.642);
   --btn-color-2: #ff6200;
 
-  --maxWidth: 1280px;
-  --darkGrey: #1c1c1c;
+
+  /* screen size */
+  --mediumWidth: 1280px;
+  --smallWidth: 750px;
+
+
+
+  /* font size */
   --fontSuperBig: 2.5rem;
   --fontBigger: 2rem;
   --fontBig: 1.7rem;
@@ -35,6 +41,16 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
+    width: 100%;
+
+    .App{
+      display: flex;
+      justify-content:center;
+    }
+    
+    @media screen and (max-width: 800px) {
+      overflow: hidden auto;
+    }
   }
 `;
 
