@@ -24,6 +24,7 @@ const Register = () => {
             name="name"
             id="name"
             placeholder="Input a Username"
+            onChange={handleChange}
           />
         </div>
         <div className="input">
@@ -33,6 +34,7 @@ const Register = () => {
             name="email"
             id="email"
             placeholder="Your Email"
+            onChange={handleChange}
           />
         </div>
         <div className="input">
@@ -48,9 +50,7 @@ const Register = () => {
         <div className="agree">
           <div className="agreeBox">
             <input type="checkbox" name="agreeTo" id="agreeTo" />
-            <label htmlFor="agreeTo">
-              I agree to the terms and conditions
-            </label>
+            <label htmlFor="agreeTo">I agree to the terms and conditions</label>
           </div>
         </div>
         <Button text={"Sign Up"} />
