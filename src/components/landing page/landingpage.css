@@ -397,7 +397,7 @@ span.userjob {
 
 @media (min-width: 667px) and (max-width: 900px) {
   .landingpage {
-    width: 90%;
+    width: 100%;
   }
 
   section.so1b {
