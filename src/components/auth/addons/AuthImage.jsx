@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import authImg from "../icons/auth.svg";
+// import authImg from "../icons/auth.svg";
 
 import React from "react";
 
