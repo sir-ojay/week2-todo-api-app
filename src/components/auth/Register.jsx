@@ -56,7 +56,7 @@ const Register = () => {
         <Button text={"Sign Up"} />
         <Social />
         <p>
-          I already have an account <Link to={"/auth"}>Login</Link>
+          Already have an account <Link to={"/auth"}>Login</Link>
         </p>
       </div>
     </RegisterContainer>
