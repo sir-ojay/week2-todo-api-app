@@ -6,7 +6,7 @@ import AuthImage from "./addons/AuthImage";
 import Social from "./addons/Social";
 
 const Register = () => {
-  const [data, setData] = useState({});
+  //  const [data, setData] = useState({});
 
   const handleChange = (e) => {
     e.preventDefault();
