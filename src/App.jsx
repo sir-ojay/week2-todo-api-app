@@ -14,11 +14,11 @@ import TodoForm from "./components/todos page/TodoForm";
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="auth" element={<AuthWrapper />}>
-          <Route element={<Login />} />
+          <Route index element={<Login />} />
           <Route path="register" element={<Register />} />
           <Route path="reset" element={<Reset />} />
         </Route>
