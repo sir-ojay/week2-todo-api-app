@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Permanent+Marker&display=swap');
+
+/*
+.nav-list {
+    color: #000000;
+}
+
+.nav-list .home {
+    color: #0B5A79;
+}
+
+
+.bg-myblue {
+    background-color: rgba(148, 182, 196, 0.26);
+}
+
+.signin {
+    color: #0B5A79;
+}
+
+.tryforfree {
+    width: 130px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0B5A79;
+}
+*/
+
+.header {
+    background-color: rgba(148, 182, 196, 0.26);
+    padding: 0 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu-bar .navbar-toggler {
+    padding-right: 20px;
+    outline: none!important;
+    border: none!important;
+}
+
+.header ul {
+    margin-left: 250px;
+}
+
+.nav-link {
+    font-size: 16px;
+    margin: 3px;
+    color: #000000!important;
+    font-weight: 400;
+    
+}
+
+.nav-link span {
+    color: #0B5A79;
+}
+
+.header .nav-right {
+    display: flex;
+   
+}
+
+.header .nav-right a .nav-link  {
+    color: #0B5A79;
+}
+
+.nav-right a .tryforfree {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0B5A79;
+    color: #ffffff;
+}

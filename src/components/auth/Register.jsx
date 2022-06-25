@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { Link } from "react-router-dom";
 import RegisterContainer from "./styles/registerStyles";
 import Button from "./addons/Button";
@@ -6,7 +6,7 @@ import AuthImage from "./addons/AuthImage";
 import Social from "./addons/Social";
 
 const Register = () => {
-  const [data, setData] = useState({});
+  //  const [data, setData] = useState({});
 
   const handleChange = (e) => {
     e.preventDefault();

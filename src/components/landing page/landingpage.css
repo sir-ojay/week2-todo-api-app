@@ -86,10 +86,7 @@ img.landingpage-img {
 /* STYLES FOR SECTION - "SET A GAOL"  -ENDS- */
 
 /* STYLES FOR SECTION - "SATISFYING OVER 1B" -STARTS-  */
-.landingpage {
-  width: 95%;
-  background-color: aqua;
-}
+
 
 section.so1b {
   display: flex;
@@ -200,9 +197,7 @@ span.userjob {
 }
 
 @media (min-width: 1070px) and (max-width: 1120px) {
-  .landingpage {
-    width: 90%;
-  }
+
 
   div.so1b-BCcontainer {
     width: 30pc;
@@ -396,9 +391,7 @@ span.userjob {
 }
 
 @media (min-width: 667px) and (max-width: 900px) {
-  .landingpage {
-    width: 90%;
-  }
+
 
   section.so1b {
     display: flex;
@@ -486,12 +479,7 @@ span.userjob {
 }
 
 @media (max-width: 700px) {
-  .landingpage {
-    width: 85%;
-    text-align: justify;
-    padding: 5px;
-    ;
-  }
+
 
   section.so1b {
     display: flex;
@@ -583,10 +571,6 @@ span.userjob {
   }
 }
 
-@media (max-width: 666px) {
-  .landingpage {
-    width: 80%;
-  }
-}
+
 
 /* STYLES FOR SECTION - "SATISFYING OVER 1B"  -ENDS- */
